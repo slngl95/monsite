@@ -1,0 +1,185 @@
+body{
+		background: url(https://www.theunicornsidekick.com/wp-content/uploads/2017/06/unicorn.png);
+		background-size: 15%;
+		background-repeat: repeat;
+		background-color: pink;
+	}
+
+.menu { 
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-color: black;
+
+}
+.baniere {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	font-family: verdana;
+	font-size: 30px;
+	color: white;
+
+}
+
+.baniere img {
+
+	max-width: 10%;
+	max-height: auto
+}
+
+.cathead {
+		-moz-transform: scaleX(-1);
+        	-o-transform: scaleX(-1);
+      		-webkit-transform: scaleX(-1);
+        	transform: scaleX(-1);
+        	filter: FlipH;
+        	-ms-filter: "FlipH";
+}
+
+.boutons {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.boutons ul{
+	padding: 0;
+	margin: 20;
+	list-style-type: none;
+
+
+}
+.boutons li{
+	margin-left: 2;
+	float: left;
+}
+
+.boutons ul li a {
+	display: block;
+	float: left;
+	width: 150px; ----------------------
+	background-color: violet;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-family: impact;
+	font-size: 20px;
+	font-size-adjust: auto;
+	padding: 10px;
+	
+
+}
+
+.boutons ul li a:hover {
+	background-color: #c97b9a;
+
+}
+
+.article {
+	display: flex;
+	flex-direction: row;
+
+	
+
+}
+
+span {	
+	font-weight: bold;
+
+}
+
+
+.qui {
+	flex-direction: column;
+	justify-content: center;
+	margin:auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: black;
+	background-color: pink;
+	opacity: 0.7;
+	font-family: verdana;
+	border: 5px solid black;
+	border-top: none;
+	min-width: 1005.57px;
+	min-height: 600px;
+
+
+}
+
+.qui h2 {
+	font-family: impact;
+	font-size: 40px;
+	text-decoration: underline;
+	text-align: left;
+}
+
+
+
+.solene {
+	flex-direction: column;
+	padding-right: 40px;
+	background-color: black;
+	color: white;
+	font-family: verdana;
+	width: 1000px;
+	
+}
+
+.solene li {
+	padding-bottom: 10px;
+
+}
+
+.solene ul li {
+	list-style-type: none;
+	text-align: left;
+	padding-left: 0;	
+}
+
+.solene img {
+	width: 120px;
+	height: 150px;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: black;
+	padding-bottom: 50px;
+
+
+}
+
+footer p {
+	color: white;
+	font-family: impact;
+	padding-left: 2px;
+	text-align: center;
+
+}
+
+footer a {
+	display: flex;
+	flex direction: row;
+	padding-top: 10px;
+
+}
+
+.iconereso{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.linkedin{
+	margin-right: 5px;
+}
+
+.facebook{
+	margin-left: 5px;
+}
+
