@@ -24,9 +24,10 @@ body{
 }
 
 .baniere img {
-
-	max-width: 10%;
-	max-height: auto
+	min-width: 120px;
+	min-height: 150px;
+	max-width: 120px;
+	max-height: 150px;
 }
 
 .cathead {
